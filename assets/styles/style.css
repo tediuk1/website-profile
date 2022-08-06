@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #191a19;
+  height: 80px;
+  border: 1.5px solid black;
+}
+
+header h1 {
+  float: left;
+  font-size: 40px;
+  padding: 14px 20px;
+  color: white;
+}
+
+nav {
+  float: right;
+  font-size: 20px;
+  padding: 5px;
+}
+
+nav ul li {
+  padding: 20px;
+  display: inline-block;
+}
+
+nav ul li a {
+  transition: 0.2s;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: #d8e9a8;
+}
+
+main {
+  background-color: #191a19;
+  color: white;
+  overflow: auto;
+}
+
+#content {
+  margin: 5px;
+  background-color: #1e5128;
+  float: left;
+  width: 74%;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.img-content {
+  border-radius: 10px;
+  width: 50%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+#content h2 {
+  padding: 0px 0px 8px 0px;
+}
+
+#content p {
+  padding: 5px 0px 0px 0px;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+aside {
+  margin: 5px 10px 0px 0px;
+  float: right;
+  width: 24%;
+  height: max-content;
+  background-color: #4e9f3d;
+  border-radius: 10px;
+}
+
+aside h2 {
+  text-align: center;
+  padding: 13px 0px 0px 0px;
+}
+
+aside img {
+  padding: 10px 10px 0px 10px;
+  border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+aside section {
+  font-size: 12px;
+  padding: 0px 0px 15px 15px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #d8e9a8;
+  color: #191a19;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 150px;
+  }
+
+  nav ul li {
+    width: 70%;
+    padding: 8px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  span {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #content {
+    width: 97.5%;
+  }
+
+  #profil {
+    width: 50%;
+    margin: 0px auto;
+  }
+}
