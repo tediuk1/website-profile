@@ -1,2 +1,3 @@
 # website-profile
-This is a submission assignment from Dicoding in the Web Programming Basic Learning class. That is by creating a simple portfolio website
+
+Tugas submission dari Dicoding Academy pada kelas "Belajar Dasar Pemrograman Web".
